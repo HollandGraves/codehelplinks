@@ -1,0 +1,104 @@
+/* Imports
+----------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Metal+Mania');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+
+/* Body Styles
+----------------------------*/
+body {
+    padding: 0%;
+    border: none;
+    margin: 1%;
+}
+
+
+
+/* Typography Styles
+----------------------------*/
+
+body {
+    font-family: 'Roboto', serif;
+}
+
+
+/* Header Styles
+----------------------------*/
+
+header {
+    font-family: 'Metal Mania', 'Nanum Gothic', serif;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.introh2 {
+    text-align: center;
+}
+
+
+/* Nav Styles
+----------------------------*/
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    background-color: black;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 1%;
+}
+
+nav ul li:hover {
+    background-color: rgb(37, 37, 37);
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Metal Mania', 'Nanum Gothic', serif;
+    font-size: 1.4em;
+    line-height: 1.1em;
+    color: rgb(133, 133, 133);
+}
+
+
+
+
+/* Section Styles
+----------------------------*/
+
+section {
+    width: 70%;
+    float: left;
+}
+
+section h2 {
+
+}
+
+section .image {
+    margin: auto;
+    width: 700px;
+    height: auto;
+}
+
+
+/* Aside Styles
+----------------------------*/
+
+aside {
+    width: 30%
+    float: right;
+}
+
+
+/* Footer Styles
+----------------------------*/
+
+footer {
+    text-justify: both;
+}
